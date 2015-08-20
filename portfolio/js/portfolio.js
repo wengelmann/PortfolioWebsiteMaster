@@ -1,6 +1,6 @@
 jQuery(window).scroll(function() {
 
-    if (jQuery(this).scrollTop()>300)
+    if (jQuery(this).scrollTop()>150)
      {
       jQuery('.arrow').fadeOut();
      }

@@ -14,15 +14,7 @@ h1 {
    padding-bottom: 60px;
    padding-right: 10%;
 }
-h2 {
-   font-family: 'Montserrat', sans-serif;
-   font-weight: 700;
-   color: rgba(0,0,0,.8);
-   font-size: 30px;
-   letter-spacing: 0px;
-   float:left;
-   padding-left: 20px;
-}
+
 .categories {
    width: 20%;
    padding-left: 20px;
@@ -34,15 +26,25 @@ footer div{
    color: rgba(0,0,0,.8);
   margin-left: -5%;
 }
-.photocontainer {
-   width: 35%;
+#imagecontainer {
+   width: 60%;
    margin: auto;
-   padding-top: 30px;
-   padding-right: 10%;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 700;
+   color: rgba(0,0,0,.8);
+   font-size: 30px;
+   letter-spacing: 0px;
+   padding-right: 5%;
+   padding-bottom: 350px;
+
 }
-img {
-   width: 100%;
-   padding-bottom: 60px;
+.types {
+   float:left;
+   padding: 50px;
+   text-align: center;
+   line-height: 33px;
+
+}
 
 }
 a:link {
@@ -132,4 +134,63 @@ a:hover {
 }
 a:visited {
    color: rgba(0,0,0,.8);
+}
+@media only screen and (max-width: 1130px){
+   #imagecontainer {
+   width: 30%;
+   margin: auto;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 700;
+   color: rgba(0,0,0,.8);
+   font-size: 30px;
+   letter-spacing: 0px;
+   padding-right: 18%;
+   padding-bottom: 350px;}
+.types {
+   width: 100%;
+
+}
+
+}
+@media only screen and (max-width: 900px){
+   #imagecontainer {
+   width: 30%;
+   margin: auto;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 700;
+   color: rgba(0,0,0,.8);
+   font-size: 30px;
+   letter-spacing: 0px;
+   padding-right: 20%;
+   padding-bottom: 350px;}
+
+}
+@media only screen and (max-width: 600px){
+   #imagecontainer {
+   width: 30%;
+   margin: auto;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 700;
+   color: rgba(0,0,0,.8);
+   font-size: 30px;
+   letter-spacing: 0px;
+   padding-right: 25%;
+   padding-bottom: 350px;}
+
+}
+@media only screen and (max-width: 400px){
+   #imagecontainer {
+   width: 30%;
+   margin: auto;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 700;
+   color: rgba(0,0,0,.8);
+   font-size: 20px;
+   letter-spacing: 0px;
+   padding-right: 32%;
+   padding-bottom: 350px;}
+   h1 {
+      font-size: 30px;
+   }
+
 }

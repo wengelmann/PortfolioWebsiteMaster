@@ -24,14 +24,15 @@ footer div{
 }
 .categories {
    width: 15%;
-   padding-left: 20px;
-   padding-top: 20px;
+   padding-left: 55px;
+   padding-top: 1px;
 }
 .photocontainer {
-   width: 40%;
+   width: 45%;
    margin: auto;
    padding-right: 10%;
    padding-bottom: 100px;
+   padding-top: 6px;
 }
 
 #name {
